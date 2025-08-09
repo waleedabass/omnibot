@@ -1,3 +1,11 @@
-.venv
+# Virtual environment
+.venv/
+
+# Environment variables
 .env
-mcp_client\app\servers\credentials.json
+
+# Credentials
+app/servers/credentials.json
+
+# Python cache
+__pycache__/
