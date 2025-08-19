@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Credentials
+credentials.json
+token.pickle
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# System files
+.DS_Store
+Thumbs.db

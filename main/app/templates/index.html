@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Omnibot</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="logo-title">
+        <img src="/static/OMv15x01.svg" alt="Omnibot Logo" class="logo">
+        <div class="title-text">
+          <h1>Omnibot</h1>
+          <h5>Your Everything Assistant</h5>
+        </div>
+      </div>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="bot-message message">Hi I am Omni, How can I help you today?</div>
+    </div>
+    <form class="chat-input" id="chatForm">
+      <input type="text" id="userInput" name="message" placeholder="Type or speak your message..." required />
+      <button type="button" id="micButton" title="Speak your message">🎙️</button>
+      <button type="submit">➤</button>
+    </form>
+  </div>
+
+  <script src="/static/script.js?v=2"></script>
+</body>
+</html>
