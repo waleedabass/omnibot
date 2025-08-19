@@ -52,13 +52,13 @@ def read_config_json():
 
     Priority:
       1. Try to read the path from the config environment variable.
-      2. If not set, fallback to a default file 'congif.json' in the same directory.
+      2. If not set, fallback to a default file 'config.json' in the same directory.
 
     Returns:
         dict: Parsed JSON content with MCP server definitions.
     """
     # Attempt to get the config file path from the environment variable
-    config_path = os.getenv("congig")
+    config_path = os.getenv("config")
 
     if not config_path:
         # If environment variable is not set, use a default config file in the same directory as this script
